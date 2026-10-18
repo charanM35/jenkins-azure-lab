@@ -3,7 +3,7 @@ resource "azurerm_resource_group" "lab" {
   location = "Central India"
 
   tags = {
-    environment = "learning"
+    environment = "dev"
     managed_by  = "jenkins-terraform"
   }
 }
